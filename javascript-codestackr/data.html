@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Example</title>
+</head>
+<body>
+  <ul id="list"></ul>
+  <script>
+    // let data = {
+    //   "name": "Imran",
+    //   "age": 21
+    // }
+    // console.log(data.name);
+
+    fetch('data.json') .then((resp) => resp.json()) .then((json) => {
+      // console.log(json.address.street)
+      var list = json.shoppingList;
+      var output = "";
+      for(var i = 0; i < list.length; i++){
+        output += "<li>" + list[i] + "</li>";
+      }
+      document.getElementById("list").innerHTML = output;
+    })
+  </script>
+</body>
+</html>

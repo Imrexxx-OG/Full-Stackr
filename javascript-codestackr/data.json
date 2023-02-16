@@ -1,0 +1,11 @@
+{
+  
+  "name": "Imran",
+  "age": 21,
+  "address": {
+    "street": "Plot 666 St",
+    "city": "Utako",
+    "state": "FCT"
+  },
+  "shoppingList": ["milk", "eggs", "bread"]
+}

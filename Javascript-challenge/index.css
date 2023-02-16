@@ -1,0 +1,42 @@
+body {
+  background-image: url("white.png");
+  background-size: cover;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px;
+}
+
+h2{
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgb(117, 176, 196);
+}
+
+#save-btn {
+  background: gray;
+}
+
+#save-el {
+ 
+  color: black;
+  font-size: 20px;
+
+}
